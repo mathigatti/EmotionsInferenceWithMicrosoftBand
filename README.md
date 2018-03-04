@@ -1,7 +1,7 @@
 # Physiological Data with Microsoft Band
 In this project Physiological signals recorded with a Microsoft Band 2 are processed and modeled with a basic bayesian model.
 
-The bayesian model and its explanation and results (It's in spanish) are in the jupyter notebook, I used the *pymc* library. The model is inspired in some examples from the book [Bayesian Inference for Hacker](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers).
+The bayesian model and its explanation and results are in the jupyter notebook (It's in spanish), I used the *pymc* library. The model is inspired in some examples from the book [Bayesian Inference for Hacker](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers).
 
 # Raw Data recording with Microsoft Band
 I will explain the method to access to the raw data from the band since It's something that took me some time to figure out and I think some people could find it useful.

@@ -28,9 +28,9 @@ To access to the data in real time from your computer I download SSHelper app wh
 	5.a `ifconfig`
 	5.b `sudo nmap -sO 192.168.XX.1/24`
 
-6. Mount your phone data into some folder, e.g. "./band", complete the XX.YYY with the your phone IP
+6. Mount your phone data into some folder, e.g. "./band", complete the XX.YYY with your phone IP
     ```sudo sshfs -p 2222 admin@192.168.XX.YYY:/data/data/com.arachnoid.sshelper/home/SDCard/CompanionForBand ./band```
 
 That's it, you should be able to access the data, `band.py` is a python script to print the beats per minute (BPM), galvanic skin response (GSR) and body temperature.
 
-At the end to disconnect your phone file system from your computer with: `umount ./band`
+At the end you can disconnect your phone file system from your computer with: `umount ./band`
